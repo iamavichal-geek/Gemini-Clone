@@ -38,6 +38,7 @@ cursor: pointer;
 .sidebar .recent{
     display: flex;
     flex-direction: column;
+    animation: fadeIn 3s;
 
 }
 
@@ -72,4 +73,14 @@ background-color: #e2e6eb;
     padding-right: 10px;
     cursor: pointer;
 
+}
+
+@media (max-width:600px){
+    .sidebar{
+        /* display: none; */
+    /* width: 70px; */
+
+    }
+
+    
 }

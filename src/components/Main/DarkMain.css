@@ -204,3 +204,24 @@ display: none;
 .dtoggle-switch{
     margin-top: -20px;
 }
+
+@media (max-width:600px){
+    .dmain-bottom input{
+       flex:none;
+       width: 150px;
+    }
+
+    .dmain-bottom img{
+       width: 25px;
+    }
+
+    .dsearch-box{
+       padding: 5px 10px;
+    }
+
+    .dsearch-box  div{
+       gap:5px
+    }
+
+
+}

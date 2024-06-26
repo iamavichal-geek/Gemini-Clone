@@ -16,6 +16,8 @@ import gemini_icon from './gemini_icon.png'
 import heart_icon from './heart_icon.png'
 import user2_icon from './user2_icon.png'
 import night_icon from './night_icon.png'
+import dmenu_icon from './dmenu_icon.png'
+
 
 export const assets = {
     history_icon,
@@ -31,6 +33,7 @@ export const assets = {
     night_icon,
     user2_icon,
     youtube_icon,
+    dmenu_icon,
     message_icon,
     code_icon,
     send_icon,

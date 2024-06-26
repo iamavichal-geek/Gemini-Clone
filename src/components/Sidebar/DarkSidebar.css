@@ -41,6 +41,7 @@ cursor: pointer;
     display: flex;
     flex-direction: column;
     color: white;
+    animation: fadeIn 3s;
 
 }
 
@@ -75,4 +76,10 @@ background-color: #212121;
     padding-right: 10px;
     cursor: pointer;
 
+}
+
+@media (max-width:600px){
+    .dsidebar{
+        /* display: none; */
+    }
 }

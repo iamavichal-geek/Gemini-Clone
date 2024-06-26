@@ -18,7 +18,7 @@ await onSent(prompt)
   return (
     <div className={isDark?'dsidebar':'sidebar'}>
          <div className={isDark?"dtop":"top"}>
-         <img onClick={()=>{setExtended(!extended)}}className={isDark?"dmenu":"menu"} src={assets.menu_icon} alt="" />
+         <img onClick={()=>{setExtended(!extended)}}className={isDark?"dmenu":"menu"} src={isDark? assets.dmenu_icon:assets.menu_icon} alt="" />
          <div className={isDark?"dnew-chat":"new-chat"}>
             <img src={assets.plus_icon} alt="" />
             {extended?<p>New Chat</p>:null}

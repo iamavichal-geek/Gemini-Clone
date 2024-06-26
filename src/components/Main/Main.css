@@ -199,3 +199,24 @@ display: none;
 .toggle-switch{
     margin-top: -20px;
 }
+
+@media (max-width:600px){
+     .main-bottom input{
+        flex:none;
+        width: 150px;
+     }
+
+     .main-bottom img{
+        width: 25px;
+     }
+
+     .search-box{
+        padding: 5px 10px;
+     }
+
+     .search-box  div{
+        gap:5px
+     }
+
+
+}
