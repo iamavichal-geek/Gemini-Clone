@@ -19,7 +19,7 @@ const Main = () => {
     <div className='main'>
         <div className="nav">
             <p>Gemini</p>
-            <img src={assets.user_icon} alt="" />
+            <img src={assets.user2_icon} alt="" />
         </div>
         <div className="main-container">
             {!showResult?<><div className="greet">
@@ -45,7 +45,7 @@ const Main = () => {
                 </div>
             </div></>:<div className='result'>
                 <div className="result-title">
-                    <img src={assets.user_icon} alt="" />
+                    <img src={assets.user2_icon} alt="" />
                     <p>{recentPrompt}</p>
                 </div>
                 <div className="result-data">
