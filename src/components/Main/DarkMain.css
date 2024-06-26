@@ -1,25 +1,26 @@
-.main{
+.dmain{
     flex: 1;
     min-height: 100vh;
     padding-bottom: 15vh;
     position: relative;
+    background-color: #212121;
 }
 
-.main .nav{
+.dmain .dnav{
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size:22px ;
     padding: 20px;
-    color:#585858;
+    color:#ffffff;
 }
 
-.main .nav img{
+.dmain .dnav img{
     width: 40px;
     border-radius: 50%;
 }
 
-.main-container{
+.dmain-container{
     max-width: 900px;
     margin:auto;
     
@@ -27,7 +28,7 @@
 
 }
 
-.main .greet{
+.dmain .dgreet{
     margin-top: 0px;
     margin: 10px 0px;
     font-size: 56px;
@@ -36,13 +37,13 @@
     padding: 0px 20px;
 }
 
-.main .greet span{
+.dmain .dgreet span{
     background: -webkit-linear-gradient(16deg,#4b90ff,#ff5546);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.main .cards{
+.dmain .dcards{
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
     gap:15px;
@@ -50,16 +51,16 @@
     
 }
 
-.main .card{
+.dmain .dcard{
     height: 200px;
     padding: 15px;
-    background-color: #f0f4f9;
+    background-color: #ced3d8;
     border-radius: 10px;
     position: relative;
     cursor: pointer;
 }
 
-.card img{
+.dcard img{
     width: 45px;
     padding: 5px;
     position: absolute;
@@ -70,17 +71,18 @@
 
 }
 
-.card p{
-    color:#585858;
+.dcard p{
+    color:#424242;
     font-size: 17px;
 }
 
-.main .card:hover{
-    background-color: #dfe4ea;
+.dmain .dcard:hover{
+    
+    background-color: #f0f4f9;
         
 }
 
-.main-bottom{
+.dmain-bottom{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -91,7 +93,7 @@
 
 }
 
-.search-box{
+.dsearch-box{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,12 +104,12 @@
     border-radius: 20px;
 }
 
-.search-box img {
+.dsearch-box img {
     width: 24px;
     cursor: pointer;
 }
 
-.search-box input{
+.dsearch-box input{
     flex:1;
     background: transparent;
     border: none;
@@ -116,52 +118,55 @@
     font-size: 18px;
 }
 
-.search-box div{
+.dsearch-box div{
     display: flex;
     align-items: center;
     gap:15px;
 }
 
-.main .bottom-info{
+.dmain .dbottom-info{
     font-size: 13px;
     margin: 15px auto;
     text-align: center;
     font-weight: 300;
+    color: white;
 
 }
 
-.result{
+.dresult{
     padding: 0px 5%;
     max-height: 70vh;
     overflow-y: scroll;
 }
 
-.result::-webkit-scrollbar{
+.dresult::-webkit-scrollbar{
 display: none;
 }
 
-.result-title{
+.dresult-title{
     margin: 40px 0px;
     display: flex;
     align-items: center;
     gap: 20px;
+    color: white;
 
 }
 
-.result img{
+.dresult img{
     border-radius: 50%;
     width: 50px;
 
 }
 
-.result-data{
+.dresult-data{
     display: flex;
     align-items: start;
     gap: 20px;
+    color: white;
 
 }
 
-.loader{
+.dloader{
     width: 100%;
     display: flex;
     flex: column;
@@ -169,7 +174,7 @@ display: none;
     /* height: 20px; */
 }
 
-.loader-bar{
+.dloader-bar{
     border-radius: 4px;
     border: none;
     background-color: #4386c8;
@@ -189,13 +194,13 @@ display: none;
     }
 }
 
-.result-data p{
+.dresult-data p{
     font-size: 17px;
     font-weight: 300;
     line-height: 1.8;
 
 }
 
-.toggle-switch{
+.dtoggle-switch{
     margin-top: -20px;
 }

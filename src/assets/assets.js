@@ -15,6 +15,7 @@ import send_icon from './send_icon.png'
 import gemini_icon from './gemini_icon.png'
 import heart_icon from './heart_icon.png'
 import user2_icon from './user2_icon.png'
+import night_icon from './night_icon.png'
 
 export const assets = {
     history_icon,
@@ -27,6 +28,7 @@ export const assets = {
     gallery_icon,
     mic_icon,
     user_icon,
+    night_icon,
     user2_icon,
     youtube_icon,
     message_icon,

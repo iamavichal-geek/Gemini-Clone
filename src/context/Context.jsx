@@ -10,6 +10,7 @@ const ContextProvider =  (props)=>{
     const[showResult, setShowResult]=useState(false);
     const[loading,setLoading]=useState(false);
     const[resultData, setResultData]=useState("");
+    const[isDark, setIsDark]=useState(false);
 
     const delayPara = (index, nextWord)=>{
 setTimeout(function (){
@@ -60,6 +61,9 @@ loading,
 resultData,
 input,
 setInput,
+isDark,
+setIsDark,
+
 
 
 
